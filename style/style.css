@@ -1,0 +1,16 @@
+.carousel-inner{
+    background-size: cover;
+}
+
+.second_sec h1{
+    font-size: 3rem;
+    
+}
+
+.second_sec{
+    color: black;
+}
+
+.jumbotron{
+    background: #ffffff !important;
+}
