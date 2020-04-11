@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .carousel-inner{
     background-size: cover;
 }
@@ -8,7 +11,7 @@
 }
 
 .second_sec{
-    color: black;
+    color: blac
 }
 
 .jumbotron{
@@ -35,19 +38,26 @@ html{
     font-size: 12px;
 }
 
-
-
-
-
-/* shop style */
-.shop{
-    margin-top: 10% ;
+.time{
+    font-size: 23px;
 }
 
-.shop h1{
-    font-size: 4rem;
+
+.card{
+    overflow: hidden;
 }
 
-.shop p{
-    font-size: 30px;
+.card img{
+    transition: all 1.5s ease;
 }
+
+.card:hover img{
+    transform: scale(1.5);
+}
+
+/* shop */
+.inne{
+    margin-top: 15%;
+}
+
+
