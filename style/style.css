@@ -1,63 +1,75 @@
-body{
-    margin: 0;
-}
-.carousel-inner{
+.carousel-inner {
     background-size: cover;
 }
 
-.second_sec h1{
+.second_sec h1 {
     font-size: 3rem;
-    
+
 }
 
-.second_sec{
+.second_sec {
     color: blac
 }
 
-.jumbotron{
+.jumbotron {
     background: #ffffff !important;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.inner{
+.inner {
     overflow: hidden;
 }
 
-.inner img{
+.inner img {
     transition: all 1.5s ease;
 }
 
-.inner:hover img{
+.inner:hover img {
     transform: scale(1.5);
 }
 
-.card-footer{
+.font {
     font-size: 12px;
 }
 
-.time{
-    font-size: 23px;
+.time {
+    font-size: 2vw;
+    font-family: monospace;
+}
+
+.test{
+    background-image: url("/images/bg-pattern-intro-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.more{
+    background-color: orange !important;
+    background-image: url("/images/bg-pattern-how-we-work-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: white;
+}
+.more h1{
+    font-size: 4rem;
 }
 
 
-.card{
+.card {
     overflow: hidden;
 }
 
-.card img{
+.card img {
     transition: all 1.5s ease;
 }
 
-.card:hover img{
+.card:hover img {
     transform: scale(1.5);
 }
 
 /* shop */
-.inne{
+.inne {
     margin-top: 15%;
 }
-
-
